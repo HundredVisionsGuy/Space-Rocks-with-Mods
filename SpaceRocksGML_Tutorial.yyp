@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_asteroid_large","path":"sprites/spr_asteroid_large/spr_asteroid_large.yy",},"order":3,},
+    {"id":{"name":"spr_box_with_a_name","path":"sprites/spr_box_with_a_name/spr_box_with_a_name.yy",},"order":6,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":4,},
     {"id":{"name":"spr_asteroid_med","path":"sprites/spr_asteroid_med/spr_asteroid_med.yy",},"order":2,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":2,},
