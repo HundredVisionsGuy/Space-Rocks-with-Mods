@@ -5,4 +5,4 @@ draw_set_font(fnt_text);
 
 // Set global variables
 score = 0;
-lives = 3;
+lives = 1;
