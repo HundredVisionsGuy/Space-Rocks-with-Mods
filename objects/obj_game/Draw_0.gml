@@ -23,6 +23,7 @@ switch(room)
 		draw_text_transformed_colour(room_width / 2, 100, 
 			"SPACE ROCKS", 3, 3, 0, c, c, c, c, 1);
 		draw_text(room_width / 2, 200, title_text);
+		draw_set_halign(fa_left);
 		break;
 		
 	case rm_win:
