@@ -3,6 +3,10 @@
 
 if (room == rm_game)
 {
+	if audio_is_playing(msc_song) 
+	{
+		audio_stop_sound(msc_song);
+	}
 	audio_play_sound(msc_song, 2, true);
 	repeat(6)
 	{
@@ -12,6 +16,8 @@ if (room == rm_game)
 			irandom_range(room_height * 0.7, room_height));
 		instance_create_layer(xx, yy, "Instances", obj_asteroid);
 	}
+	instance_create_layer(room_width / 2, room_height / 2,
+		"Instances", obj_ship);
 	alarm[0] = 60;
 		
 }
