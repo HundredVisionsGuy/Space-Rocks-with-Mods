@@ -17,7 +17,7 @@ switch(room)
 		draw_text(20, 40, "LIVES: " + string(lives));
 		break;
 		
-	case rm_start:
+	case rm_start:                                              
 		draw_set_halign(fa_center);
 		var c = c_yellow;
 		draw_text_transformed_colour(room_width / 2, 100, 
