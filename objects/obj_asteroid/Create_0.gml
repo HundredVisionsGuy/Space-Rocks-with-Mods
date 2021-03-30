@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+event_inherited();
 
 // pick a random asteroid sprite
 sprite_index = choose(spr_asteroid_large,
