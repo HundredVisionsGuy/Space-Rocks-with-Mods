@@ -11,7 +11,6 @@ if (instance_exists(target)) {
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);
 
 layer_x("Background", global.cameraX*99);
-layer_x("Background", global.cameraY*99);
 layer_x("Parallax_0", global.cameraX*0.96);
 layer_x("Parallax_0", global.cameraY*0.96);
 layer_x("Parallax_1", global.cameraX*0.92);
