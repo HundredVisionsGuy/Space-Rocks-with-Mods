@@ -1,14 +1,9 @@
 ///@description create_bullet
-///@param {int} _dir
-///@param {int} _spd
-///@param {enum} _fac
-///@param {index} _creator
-/*
-var _dir = argument[0];
-var _spd = argument[1];
-var _fac = argument[2];
-var _creator = argument[3];
-*/
+///@param direction
+///@param speed
+///@param faction
+///@param creator
+
 
 function create_bullet(_dir, _spd, _fac, _creator){
 	audio_play_sound(snd_zap, 1, false);
@@ -18,5 +13,7 @@ function create_bullet(_dir, _spd, _fac, _creator){
 		speed = _spd;
 		faction = _fac;
 		creator = _creator;
+		if (faction == factions.ally) image_blend = c_aqua;
+		else if (faction == factions.enemy) image_blend = c_red;
 	}
 }
